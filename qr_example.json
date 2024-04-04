@@ -1,0 +1,64 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "5771013",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-04-04T10:34:57.000-04:00",
+    "source": "#10bsykVPcj1VxiSu",
+    "profile": [ "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|3.0" ],
+    "tag": [ {
+      "code": "lformsVersion: 35.0.4"
+    } ]
+  },
+  "questionnaire": "Questionnaire/55418-8-x",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/pat-53234",
+    "display": "MOMO ABBAS"
+  },
+  "authored": "2024-04-04T14:34:56.445Z",
+  "author": {
+    "reference": "Practitioner/smart-Practitioner-72080416",
+    "type": "Practitioner",
+    "display": "Joseph Nichols"
+  },
+  "item": [ {
+    "linkId": "/29463-7",
+    "text": "Weight",
+    "answer": [ {
+      "valueDecimal": 70
+    } ]
+  }, {
+    "linkId": "/8352-7",
+    "text": "Clothing worn during measure",
+    "answer": [ {
+      "valueCoding": {
+        "system": "http://loinc.org",
+        "code": "LA11871-3",
+        "display": "Underwear or less"
+      }
+    } ]
+  }, {
+    "linkId": "/8302-2",
+    "text": "Body height",
+    "answer": [ {
+      "valueDecimal": 67
+    } ]
+  }, {
+    "linkId": "/39156-5",
+    "text": "BMI",
+    "answer": [ {
+      "valueDecimal": 24.2
+    } ]
+  }, {
+    "linkId": "/8361-8",
+    "text": "Bdy position with respect to gravity",
+    "answer": [ {
+      "valueCoding": {
+        "system": "http://loinc.org",
+        "code": "LA11870-5",
+        "display": "Standing"
+      }
+    } ]
+  } ]
+}
