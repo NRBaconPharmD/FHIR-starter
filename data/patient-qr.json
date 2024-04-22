@@ -1,0 +1,58 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|3.0"
+      ],
+      "tag": [
+        {
+          "code": "lformsVersion: 36.0.2"
+        }
+      ]
+    },
+    "questionnaire": "https://fhirbaseurl/Questionnaire/patientdemographics",
+    "status": "completed",
+    "authored": "2024-04-19T21:20:58.015Z",
+    "item": [
+      {
+        "answer": [
+          {
+            "valueString": "Bart"
+          }
+        ],
+        "linkId": "8018446542057",
+        "text": "What is your first name?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "Simpson"
+          }
+        ],
+        "linkId": "7221610362546",
+        "text": "What is your last name?"
+      },
+      {
+        "answer": [
+          {
+            "valueCoding": {
+              "system": "example.com",
+              "code": "m",
+              "display": "male"
+            }
+          }
+        ],
+        "linkId": "2755516174001",
+        "text": "What is your sex at birth?"
+      },
+      {
+        "answer": [
+          {
+            "valueDate": "2000-06-05"
+          }
+        ],
+        "linkId": "1397474213574",
+        "text": "What is your date of birth?"
+      }
+    ]
+  }
