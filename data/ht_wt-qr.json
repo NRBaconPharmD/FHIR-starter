@@ -1,0 +1,71 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|3.0"
+      ],
+      "tag": [
+        {
+          "code": "lformsVersion: 36.0.2"
+        }
+      ]
+    },
+    "status": "completed",
+    "authored": "2024-04-23T20:04:36.387Z",
+    "questionnaire": "https://lforms-smart-fhir.nlm.nih.gov/v/r4/fhir/Questionnaire/55418-8-x",
+    "item": [
+      {
+        "answer": [
+          {
+            "valueDecimal": 90
+          }
+        ],
+        "linkId": "/29463-7",
+        "text": "Weight"
+      },
+      {
+        "answer": [
+          {
+            "valueCoding": {
+              "system": "http://loinc.org",
+              "code": "LA11871-3",
+              "display": "Underwear or less"
+            }
+          }
+        ],
+        "linkId": "/8352-7",
+        "text": "Clothing worn during measure"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 72
+          }
+        ],
+        "linkId": "/8302-2",
+        "text": "Body height"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 26.9
+          }
+        ],
+        "linkId": "/39156-5",
+        "text": "BMI"
+      },
+      {
+        "answer": [
+          {
+            "valueCoding": {
+              "system": "http://loinc.org",
+              "code": "LA11870-5",
+              "display": "Standing"
+            }
+          }
+        ],
+        "linkId": "/8361-8",
+        "text": "Bdy position with respect to gravity"
+      }
+    ]
+  }
