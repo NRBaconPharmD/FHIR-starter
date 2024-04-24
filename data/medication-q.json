@@ -1,0 +1,84 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "66149-6",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2024-04-21T03:14:21.000-04:00",
+    "source": "#Co0Ml0qtMNCy5RaC",
+    "profile": [
+      "http://hl7.org/fhir/4.0/StructureDefinition/Questionnaire"
+    ],
+    "tag": [
+      {
+        "code": "lformsVersion: 28.1.2"
+      },
+      {
+        "code": "lformsVersion: 35.1.0"
+      }
+    ]
+  },
+  "url": "http:/lforms-fhir.nlm.nih.gov/baseR4/Questionnaire/66149-6",
+  "title": "Prescribed medications",
+  "status": "draft",
+  "code": [
+    {
+      "system": "http://loinc.org",
+      "code": "66149-6",
+      "display": "Prescribed medications"
+    }
+  ],
+  "item": [
+    {
+      "type": "string",
+      "linkId": "/66423-5",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "66423-5",
+          "display": "Medications Medication.current"
+        }
+      ],
+      "text": "Medication name?",
+      "required": false
+    },
+    {
+      "type": "string",
+      "linkId": "/66424-3",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "74057-1",
+          "display": "Medication strength is based on the amount of active ingredient present in each dosage."
+        }
+      ],
+      "text": "Medication strength?",
+      "required": false
+    },
+    {
+      "type": "string",
+      "linkId": "/66425-0",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "66425-0",
+          "display": "Number Prescribed"
+        }
+      ],
+      "text": "Medication dose?",
+      "required": false
+    },
+    {
+      "type": "string",
+      "linkId": "/66426-8",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "66426-8",
+          "display": "PRN Medicine?"
+        }
+      ],
+      "text": "Medication frequency?",
+      "required": false
+    }
+  ]
+}
