@@ -1,0 +1,44 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "5771023",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2024-04-24T09:47:14.000-04:00",
+      "source": "#xqyJOTDzx0wjUrvX",
+      "profile": [ "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|3.0" ],
+      "tag": [ {
+        "code": "lformsVersion: 36.0.2"
+      } ]
+    },
+    "questionnaire": "Questionnaire/5771022",
+    "status": "completed",
+    "subject": {
+      "reference": "Patient/smart-9995679",
+      "display": "Aaron Alexis"
+    },
+    "authored": "2024-04-24T13:47:13.164Z",
+    "author": {
+      "reference": "Practitioner/5770838",
+      "type": "Practitioner",
+      "display": "Jordan Jordanosk"
+    },
+    "item": [ {
+      "linkId": "9732277310580",
+      "text": "What brings you to the doctor today?",
+      "answer": [ {
+        "valueString": "I have pain in my stomach"
+      } ]
+    }, {
+      "linkId": "/29463-7",
+      "text": "What is your weight?",
+      "answer": [ {
+        "valueDecimal": 90
+      } ]
+    }, {
+      "linkId": "/8302-2",
+      "text": "What is your height?",
+      "answer": [ {
+        "valueDecimal": 72
+      } ]
+    } ]
+  }

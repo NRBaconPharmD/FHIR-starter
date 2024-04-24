@@ -1,0 +1,55 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "5771022",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2024-04-24T09:47:14.000-04:00",
+      "source": "#4A63FUUzYjhAnT9B",
+      "profile": [ "http://hl7.org/fhir/4.0/StructureDefinition/Questionnaire" ],
+      "tag": [ {
+        "code": "lformsVersion: 36.0.2"
+      } ]
+    },
+    "title": "Weight and Height tracking panel_test",
+    "status": "draft",
+    "code": [ {
+      "code": "55418-8",
+      "display": "Weight and Height tracking panel"
+    } ],
+    "item": [ {
+      "linkId": "9732277310580",
+      "text": "What brings you to the doctor today?",
+      "type": "string",
+      "required": false
+    }, {
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+        "valueCoding": {
+          "display": "kg"
+        }
+      } ],
+      "linkId": "/29463-7",
+      "code": [ {
+        "code": "29463-7",
+        "display": "Weight"
+      } ],
+      "text": "What is your weight?",
+      "type": "decimal",
+      "required": false
+    }, {
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+        "valueCoding": {
+          "display": "[in_i]"
+        }
+      } ],
+      "linkId": "/8302-2",
+      "code": [ {
+        "code": "8302-2",
+        "display": "Body height"
+      } ],
+      "text": "What is your height?",
+      "type": "decimal",
+      "required": false
+    } ]
+  }
