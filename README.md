@@ -17,5 +17,6 @@ Navigate to [survey_extraction_and_llm_note_generator.ipynb](/survey_extraction_
 
   Click button to open in Colab
 
+  ![button to open in colab](/images/open_in_colab.png)
+
   
- 
