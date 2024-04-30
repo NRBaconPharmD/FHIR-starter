@@ -13,10 +13,42 @@ Surveys, forms, or questionnaires (henceforth referred to as questionnaires) is 
 A completed questionnaire is stored as a [QuestionnaireResponse Resource](https://hl7.org/fhir/r4/questionnaireresponse.html). This resource contains the answers to each question from the questionnaire, along with information about the patient, when, and how the questionnaire was completed. The tool used for completion of surveys, which generates a QuestionnaireResponse is the [FHIR SDC SMART App](https://lhcforms.nlm.nih.gov/sdc).
 
 # How to Use Colab Notebook
-Navigate to [survey_extraction_and_llm_note_generator.ipynb](/survey_extraction_and_llm_note_generator.ipynb)
+* Navigate to [survey_extraction_and_llm_note_generator.ipynb](/survey_extraction_and_llm_note_generator.ipynb)
 
-  Click button to open in Colab
-
+* Click button to open in Colab
+  
   ![button to open in colab](/images/open_in_colab.png)
+
+* Run cell to clone GitHub repo into Colab
+  
+  ![clone GitHub repo](/images/clone_repo.png)
+
+* Run cell to install libraries and dependencies
+  
+  ![install libraries](/images/install_libraries.png)
+
+* Run cell for questionnaire extraction
+  
+  ![questionnaire extraction](/images/questionnaire_extraction.png)
+
+* Run cell to instantiate FHIR resources
+  
+  ![instantiate resources](/images/instantiate_fhir_resources.png)
+
+* Run cell to prime function for call to LLM
+  
+  ![LLM](/images/llm_soap_note.png)
+
+* Run helper functions
+
+  ![helper functions](/images/helper_functions.png)
+
+* Add OpenAI API key to access LLM
+
+  ![secrets openai api key](/images/secrets_openai_api_key.png)
+
+* Run main function and review output
+
+  ![main function](/images/main_function.png)
 
   
