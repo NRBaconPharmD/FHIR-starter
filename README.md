@@ -11,3 +11,11 @@ Surveys, forms, or questionnaires (henceforth referred to as questionnaires) is 
 
 # QuestionnaireResponse
 A completed questionnaire is stored as a [QuestionnaireResponse Resource](https://hl7.org/fhir/r4/questionnaireresponse.html). This resource contains the answers to each question from the questionnaire, along with information about the patient, when, and how the questionnaire was completed. The tool used for completion of surveys, which generates a QuestionnaireResponse is the [FHIR SDC SMART App](https://lhcforms.nlm.nih.gov/sdc).
+
+# How to Use Colab Notebook
+Navigate to [survey_extraction_and_llm_note_generator.ipynb](/survey_extraction_and_llm_note_generator.ipynb)
+
+  Click button to open in Colab
+
+  
+ 
